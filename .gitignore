@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI / Claude Code
+.claude/
+*.claude
+.cursor/
+.aider*
+.copilot/
+claude.local.md
+
+# secrets & keys
+*.key
+*.pem
+secrets/
+credentials/
