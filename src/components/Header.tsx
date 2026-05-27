@@ -74,7 +74,7 @@ export default function Header({ page, setPage, textMode, setTextMode, dark, set
             </div>
 
             {/* Cara trasera: nombre completo */}
-            <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateX(180deg)] flex flex-col justify-center gap-[1vw]">
+            <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateX(180deg)] flex flex-col justify-center gap-[1vw] pointer-events-none">
               <div className="flex justify-between w-full h-display text-[8.2vw] md:text-[6.8vw] leading-none select-none">
                 {['HAROLD', 'ANDRÉS'].map((w, i) => <span key={i}>{w}</span>)}
               </div>
@@ -141,7 +141,7 @@ export default function Header({ page, setPage, textMode, setTextMode, dark, set
 
       {/* Ticker */}
       <div className="rule-t rule-b border-rule/40 dark:border-[#E9E3D2]/30 overflow-hidden">
-        <div className="ticker-track flex gap-10 whitespace-nowrap py-2 font-mono text-[10px] tracking-[0.22em] uppercase opacity-70" style={{ width: '200%' }}>
+        <div className="ticker-track flex gap-10 whitespace-nowrap py-2 font-mono text-[10px] tracking-[0.22em] uppercase opacity-70 pointer-events-none" style={{ width: '200%' }}>
           {[0, 1].flatMap((copy) =>
             CONTACT.tickerItems.map((item, i) => (
               <span key={`${copy}-${i}`}>● {item}</span>

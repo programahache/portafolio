@@ -23,6 +23,10 @@ export default function PortfolioPage() {
     else html.classList.remove('dark');
   }, [dark]);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
+  }, [page]);
+
   const wrapClass = [
     textMode ? 'text-mode' : '',
     dark ? 'bg-[#0E0E0D] text-[#E9E3D2]' : 'bg-paper text-ink',

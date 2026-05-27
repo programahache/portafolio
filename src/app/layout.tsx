@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { DM_Serif_Display, Newsreader, Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 
@@ -31,6 +31,12 @@ const jetbrainsMono = JetBrains_Mono({
   variable: '--nf-mono',
   display: 'swap',
 });
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+};
 
 export const metadata: Metadata = {
   title: 'Harold Palacios — Portafolio',

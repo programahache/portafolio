@@ -22,7 +22,7 @@ export const CONTACT: ContactInfo = {
   location: { city: 'Medellín', region: 'Antioquia', country: 'Colombia' },
   email: 'haroldandres1901@gmail.com',
   phone: { display: '+57 313 528 9758', href: 'tel:+573135289758' },
-  github: { label: 'github.com/haroldp', href: 'https://github.com/haroldp' },
+  github: { label: 'github.com/programahache', href: 'https://github.com/programahache' },
   linkedin: { label: 'linkedin.com/in/haroldp', href: 'https://linkedin.com/in/haroldp' },
   availability: 'Q3 2026 · Remoto o híbrido',
   stack: '.NET · C# · React · TypeScript · Azure · PostgreSQL',
@@ -30,8 +30,8 @@ export const CONTACT: ContactInfo = {
   tickerItems: [
     'En portada — LogiChef integra IA en operación de cocinas',
     'Disponible para proyectos · Q3 2026',
-    'Stack — .NET · React · Azure · PostgreSQL',
-    '12 proyectos publicados',
+    'Stack — .NET · React · Azure · PostgreSQL, Websocket, GIT',
+    '16 proyectos publicados',
     'Medellín 21°C — papel ligero, tinta densa',
     'Pulsa N para modo texto · D para modo noche',
   ],
@@ -145,7 +145,6 @@ export const PROJECTS: Project[] = [
     one: 'Plataforma de contenidos de alto rendimiento con CMS Headless.',
     description: 'Desarrollo del blog oficial de la compañía implementando una arquitectura Headless. Se integró Directus como gestor de contenidos (CMS) para ofrecer a los editores una experiencia ágil, manteniendo tiempos de carga ultrarrápidos y un SEO impecable en el frontend.',
     tech: ['Next.js', 'Tailwind CSS', 'Directus CMS'],
-    img: '/img/blogComp.webp',
   },
 
     {
@@ -158,7 +157,7 @@ export const PROJECTS: Project[] = [
     one: 'Renovación digital orientada a la escalabilidad del negocio.',
     description: 'Diseño y desarrollo de una interfaz moderna y adaptada estratégicamente al modelo de negocio de la empresa. El objetivo arquitectónico fue maximizar el alcance de usuarios manteniendo una navegación fluida, rápida y altamente responsiva.',
     tech: ['Next.js', 'Tailwind CSS'],
-    img: '/img/calisof2.webp',
+    img: '/img/Calisof2.webp',
   },
 
    
